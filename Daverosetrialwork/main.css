@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #029f58;
+    
+}
+.Section1 {
+    display: flex;
+    flex-direction: column; 
+    padding: 47px 120px 0px 119px; 
+    gap: 136px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.nav_items {
+    display: flex;
+    gap: 52px;
+}
+.header_Build{
+    color: #FFF;
+    text-align: center;
+    font-size: 130px;
+    font-weight: 600;
+    line-height: 94.6%;
+    letter-spacing: -7.8px;
+    max-width: 748px;
+    width: 100%;
+    margin: 0 auto;  
+}
+.inner_nav a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.writeup{
+    flex-direction: column;
+    display: flex;
+    gap: 40px;
+}
+.Paragraph_text{
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    max-width: 588px;
+    width: 100%;
+    line-height: 150%;
+    margin: 0 auto;
+}
+.Contents{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    text-align: center; 
+    margin: 0 auto;
+    gap: 82.37px;
+ }
+ .buttons{
+    display: flex;
+    gap: 26px;
+    margin: 0 auto;
+ }
+ img.store {
+    width: 260px;
+    height: 81.25px;
+    flex-shrink: 0;  
+ }
+/* .logo {
+    display: flex;
+    justify-content: left;
+    align-items: flex-start;
+    gap: 212px;
+    
+} */
+
+/* Mobile view
+.hamburger {
+    display: none;
+}
+
+.material-symbols-outlined {
+   color: white;
+}
+/* 
+
+
+
+.inner_nav {
+    display: flex;
+    gap: 32px;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+
+
+.inner_nav a:hover {
+    color:black;
+}
+.Section1_Contents{
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+}
+
+
+
+
+
+ @media (max-width:1075px) {
+    .nav_items{
+        display: none;
+    }
+    .header_Build {
+        max-width: 327px;
+    }
+
+    .Paragraph_text {
+        font-size: 40px;
+        line-height: 38px;
+    } 
+    .Paragraph1_Contents{
+        font: size 40px; ;
+        line-height: 38px;
+    }
+    .Section1_Contents{
+        display: block;
+    }
+
+    .mobile {
+        display: block;
+        position: relative;
+        z-index: 2;
+    }
+ } */
+   
