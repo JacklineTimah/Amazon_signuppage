@@ -2,10 +2,12 @@ style {
     height: 100%;
     width: 100%;
   }
-  .body{
+  body{
     max-width: 949px;
     max-height: 1971px;
     font-family: Inknut Antiqua;
+    display: flex;
+    justify-content: center;
   }
   .main{
     box-sizing:border-box;
